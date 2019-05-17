@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description"
+        content="This is one of the second week's assignments. This is a Fake Blog post to practice using some of the HTML basic tags" />
+    <title>Fake Blog</title>
+</head>
+
+<body>
+
+    <h1>Michael Jordan</h1>
+
+    <div id="brief">
+        <a href="https://en.wikipedia.org/wiki/File:Michael_Jordan_in_2014.jpg">
+            <img src="images/Michael_Jordan_in_2014.jpg" width="200"
+                alt="Michae Jordan's Photo by DOD by D. Myles Cullen in the Public Domain " />
+        </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper est a commodo rutrum. Etiam iaculis
+            neque vitae libero lacinia, sed accumsan diam scelerisque. Phasellus ullamcorper lorem tincidunt odio
+            fringilla, id pulvinar quam posuere. Nulla ultrices, nibh sit amet tincidunt finibus, lorem sapien posuere
+            mi, sit amet finibus nulla tellus eu diam. Sed tempus neque nec egestas porttitor. Nam malesuada tortor at
+            sem luctus bibendum. Vivamus lorem ante, sodales ac vulputate eu, tincidunt non lectus. Nam tempor enim dui,
+            sollicitudin malesuada risus viverra non. Ut vel sapien fermentum, vestibulum dolor vitae, cursus ipsum.
+            Donec nunc orci, convallis in velit non, dapibus tincidunt ligula. Proin malesuada condimentum turpis nec
+            scelerisque. Etiam ut suscipit arcu.</p>
+    </div>
+    <h2>Cras interdum sollicitudin magna</h2>
+    <p>Id rutrum augue
+        bibendum quis. Donec urna massa, tincidunt eget aliquet sed, euismod eget nisi. Maecenas dictum a leo vel
+        pharetra. Morbi vitae ullamcorper enim. Vestibulum scelerisque enim et est lacinia, sit amet condimentum sem
+        semper. Sed facilisis, ex a pellentesque dapibus, mauris justo sodales arcu, eu ornare risus sem quis libero.
+        Vestibulum magna ipsum, aliquet quis velit ac, ullamcorper porttitor lorem. Fusce egestas ultricies odio in
+        imperdiet. Praesent sollicitudin elit dui, at lobortis est congue accumsan.</p>
+
+    <h3>Mauris nulla erat semper a urna ac</h3>
+    <p>Scelerisque faucibus lacus. Vivamus vel nunc sagittis risus euismod maximus a asem. Aliquam malesuada erat et
+        scelerisque tempor. Curabitur accumsan tellus ipsum, nec ultricies neque luctus vel.</p>
+
+    <ul>
+        <li>Id varius elit. Cras porttitor ante tellus, a ultricies ligula vestibulum sed. </li>
+        <li>Nunc volutpat nibh nec velit porta, laoreet vulputate sapien congue.</li>
+        <li> In in lectus quis erat vehicula euismod.</li>
+        <li>Quisque mattis rhoncus condimentum. Phasellus tristique rutrum bibendum. </li>
+        <li>Maecenas pulvinar convallis odio blandit viverra. Nunc varius
+            risus ante, eget feugiat orci faucibus a. Donec felis neque, convallis eu nunc in, tristique varius elit.
+        </li>
+    </ul>
+    <p>Integer tincidunt bibendum ipsum, quis varius dolor luctus sed. Donec imperdiet, eros sed consectetur suscipit,
+        tortor mi iaculis erat, quis accumsan turpis ex nec eros.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>PPG</th>
+                <th>MVP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1990-91</td>
+                <td>31.5</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>1991-92</td>
+                <td>30.1</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>1992-93</td>
+                <td>32.6</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>1995-96</td>
+                <td>30.4</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>1996-97</td>
+                <td>29.6</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>1997-98</td>
+                <td>28.7</td>
+                <td>Yes</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Maecenas hendrerit tempor mauris non varius. Donec vitae diam magna. Aenean vitae lacus at felis feugiat sagittis
+        posuere sit amet ante. Cras sed erat non nisl maximus mollis. Maecenas eleifend enim sem, nec consectetur metus
+        blandit eget. In sed sodales eros. Nulla facilisi. Donec gravida et tellus ac iaculis. Duis egestas sapien
+        purus, sit amet porttitor tortor rutrum a. Sed cursus, massa eget bibendum rutrum, nulla erat luctus justo, at
+        imperdiet eros sapien a ex. Ut at luctus velit. Curabitur congue diam libero, a congue ante accumsan id.
+        Maecenas volutpat mattis dui, quis iaculis tortor sodales in. Morbi ligula nisl, accumsan in dui sed,
+        consectetur sagittis ipsum. Suspendisse maximus turpis sed purus ullamcorper auctor.</p>
+    <h3>Please take this short survey:</h3>
+    <form action="server.php" method="POST">
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" />
+        </div>
+        <div>
+            <input type="radio" name="subscription" id="acceptSubs" value="yes" />
+            <label for="acceptSubs">Yes, please send me lots of emails</label>
+            <input type="radio" name="subscription" id="rejectSubs" value="no" />
+            <label for="rejectSubs">No, please do not send me any emails</label>
+        </div>
+        <div>
+            <label for="frequency">How often?</label>
+            <select name="frequency" id="frequency">
+                <option value="none">None</option>
+                <option value="daily">Daily digest</option>
+                <option value="weekly">Weekly digest</option>
+                <option value="python">One per post</option>
+            </select>
+        </div>
+        <fieldset>
+            <legend>How did you hear about us?</legend>
+            <div>
+                <input type="checkbox" id="facebook" name="media" value="facebook" />
+                <label for="facebook">Facebook</label>
+            </div>
+            <div>
+                <input type="checkbox" id="newspaper" name="media" value="newspaper" />
+                <label for="newspaper">Newspaper</label>
+            </div>
+            <div>
+                <input type="checkbox" id="referral" name="media" value="referral" />
+                <label for="referral">Referral</label>
+            </div>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+<!--http://127.0.0.1:8080/server.php?email=jona%40jona.com&subscription=no&media=newspaper&media=referral -->
+
+</html>
