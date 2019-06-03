@@ -3,140 +3,223 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
         content="This is one of the second week's assignments. This is a Fake Blog post to practice using some of the HTML basic tags" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
     <title>Fake Blog</title>
 </head>
 
 <body>
 
-    <h1>Michael Jordan</h1>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!-- Navbar content -->
+            <a class="navbar-brand" href="#">MY FAKE BLOG</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Technology</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    <div id="brief">
-        <a href="https://en.wikipedia.org/wiki/File:Michael_Jordan_in_2014.jpg">
-            <img src="images/Michael_Jordan_in_2014.jpg" width="200"
-                alt="Michae Jordan's Photo by DOD by D. Myles Cullen in the Public Domain " />
-        </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper est a commodo rutrum. Etiam iaculis
-            neque vitae libero lacinia, sed accumsan diam scelerisque. Phasellus ullamcorper lorem tincidunt odio
-            fringilla, id pulvinar quam posuere. Nulla ultrices, nibh sit amet tincidunt finibus, lorem sapien posuere
-            mi, sit amet finibus nulla tellus eu diam. Sed tempus neque nec egestas porttitor. Nam malesuada tortor at
-            sem luctus bibendum. Vivamus lorem ante, sodales ac vulputate eu, tincidunt non lectus. Nam tempor enim dui,
-            sollicitudin malesuada risus viverra non. Ut vel sapien fermentum, vestibulum dolor vitae, cursus ipsum.
-            Donec nunc orci, convallis in velit non, dapibus tincidunt ligula. Proin malesuada condimentum turpis nec
-            scelerisque. Etiam ut suscipit arcu.</p>
+        <div class="jumbotron">
+            <h1 class="display-4">Michael Jordan</h1>
+            <div class="row">
+                <div class="col-sm-auto">
+                    <a href="https://en.wikipedia.org/wiki/File:Michael_Jordan_in_2014.jpg">
+                        <img src="images/Michael_Jordan_in_2014.jpg" width="200"
+                            alt="Michae Jordan's Photo by DOD by D. Myles Cullen in the Public Domain " /> </a>
+                </div>
+                <div class="col-sm">
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper est a
+                        commodo rutrum. Etiam iaculis neque vitae libero lacinia, sed accumsan diam scelerisque.
+                        Phasellus
+                        ullamcorper lorem tincidunt odio fringilla, id pulvinar quam posuere. Nulla ultrices, nibh sit
+                        amet tincidunt finibus, lorem
+                        sapien posueremi, sit amet finibus nulla tellus eu diam. Sed tempus neque nec egestas porttitor.
+                        Nam
+                        malesuada tortor at sem luctus bibendum. Vivamus lorem ante, sodales ac vulputate eu, tincidunt
+                        non lectus. Nam
+                        tempor enim dui, sollicitudin malesuada risus viverra non. Ut vel sapien fermentum, vestibulum
+                        dolor vitae,
+                        cursus ipsum. Donec nunc orci, convallis in velit non, dapibus tincidunt ligula. Proin malesuada
+                        condimentum
+                        turpis nec scelerisque. Etiam ut suscipit arcu.</p>
+                </div>
+            </div>
+
+            <hr class="my-4">
+            <p>This is an extract from Wikipedia. If you want to read more, click the button below.</p>
+            <a class="btn btn-primary btn-lg bg-dark" href="#" role="button">Go to Wikipedia</a>
+        </div>
+
+
+        <h2>Cras interdum sollicitudin magna</h2>
+        <p>Id rutrum augue
+            bibendum quis. Donec urna massa, tincidunt eget aliquet sed, euismod eget nisi. Maecenas dictum a leo vel
+            pharetra. Morbi vitae ullamcorper enim. Vestibulum scelerisque enim et est lacinia, sit amet condimentum sem
+            semper. Sed facilisis, ex a pellentesque dapibus, mauris justo sodales arcu, eu ornare risus sem quis
+            libero.
+            Vestibulum magna ipsum, aliquet quis velit ac, ullamcorper porttitor lorem. Fusce egestas ultricies odio in
+            imperdiet. Praesent sollicitudin elit dui, at lobortis est congue accumsan.</p>
+
+        <h3>Mauris nulla erat semper a urna ac</h3>
+        <p>Scelerisque faucibus lacus. Vivamus vel nunc sagittis risus euismod maximus a asem. Aliquam malesuada erat et
+            scelerisque tempor. Curabitur accumsan tellus ipsum, nec ultricies neque luctus vel.</p>
+
+        <ul>
+            <li>Id varius elit. Cras porttitor ante tellus, a ultricies ligula vestibulum sed. </li>
+            <li>Nunc volutpat nibh nec velit porta, laoreet vulputate sapien congue.</li>
+            <li> In in lectus quis erat vehicula euismod.</li>
+            <li>Quisque mattis rhoncus condimentum. Phasellus tristique rutrum bibendum. </li>
+            <li>Maecenas pulvinar convallis odio blandit viverra. Nunc varius
+                risus ante, eget feugiat orci faucibus a. Donec felis neque, convallis eu nunc in, tristique varius
+                elit.
+            </li>
+        </ul>
+        <p>Integer tincidunt bibendum ipsum, quis varius dolor luctus sed. Donec imperdiet, eros sed consectetur
+            suscipit,
+            tortor mi iaculis erat, quis accumsan turpis ex nec eros.</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>PPG</th>
+                    <th>MVP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1990-91</td>
+                    <td>31.5</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>1991-92</td>
+                    <td>30.1</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>1992-93</td>
+                    <td>32.6</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>1995-96</td>
+                    <td>30.4</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>1996-97</td>
+                    <td>29.6</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>1997-98</td>
+                    <td>28.7</td>
+                    <td>Yes</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Maecenas hendrerit tempor mauris non varius. Donec vitae diam magna. Aenean vitae lacus at felis feugiat
+            sagittis
+            posuere sit amet ante. Cras sed erat non nisl maximus mollis. Maecenas eleifend enim sem, nec consectetur
+            metus
+            blandit eget. In sed sodales eros. Nulla facilisi. Donec gravida et tellus ac iaculis. Duis egestas sapien
+            purus, sit amet porttitor tortor rutrum a. Sed cursus, massa eget bibendum rutrum, nulla erat luctus justo,
+            at
+            imperdiet eros sapien a ex. Ut at luctus velit. Curabitur congue diam libero, a congue ante accumsan id.
+            Maecenas volutpat mattis dui, quis iaculis tortor sodales in. Morbi ligula nisl, accumsan in dui sed,
+            consectetur sagittis ipsum. Suspendisse maximus turpis sed purus ullamcorper auctor.</p>
+        <h4>Please take this short survey:</h4>
+        <form action="server.php" method="POST" class="bg-light">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="lasttName">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Email address" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="radio" name="subscription" id="acceptSubs" value="yes" />
+                    <label for="acceptSubs">Yes, please send me lots of emails</label>
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="radio" name="subscription" id="rejectSubs" value="no" />
+                    <label for="rejectSubs">No, please do not send me any emails</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="frequency">How often?</label>
+                    <select name="frequency" id="frequency">
+                        <option value="none">None</option>
+                        <option value="daily">Daily digest</option>
+                        <option value="weekly">Weekly digest</option>
+                        <option value="python">One per post</option>
+                    </select>
+                </div>
+            </div>
+            <fieldset class="form-group">
+                <div class="row">
+                    <legend class="col-form-label col-md-6">How did you hear about us?</legend>
+                </div>
+                <div class="col-md-6">
+                    <input type="checkbox" id="facebook" name="media" value="facebook" />
+                    <label for="facebook">Facebook</label>
+                </div>
+                <div class="col-md-6">
+                    <input type="checkbox" id="newspaper" name="media" value="newspaper" />
+                    <label for="newspaper">Newspaper</label>
+                </div>
+                <div class="col-md-6">
+                    <input type="checkbox" id="referral" name="media" value="referral" />
+                    <label for="referral">Referral</label>
+                </div>
+            </fieldset>
+            <div class="form-group row">
+                    <button type="submit" class="btn btn-primary bg-dark">Submit</button>
+            </div>
+        </form>
     </div>
-    <h2>Cras interdum sollicitudin magna</h2>
-    <p>Id rutrum augue
-        bibendum quis. Donec urna massa, tincidunt eget aliquet sed, euismod eget nisi. Maecenas dictum a leo vel
-        pharetra. Morbi vitae ullamcorper enim. Vestibulum scelerisque enim et est lacinia, sit amet condimentum sem
-        semper. Sed facilisis, ex a pellentesque dapibus, mauris justo sodales arcu, eu ornare risus sem quis libero.
-        Vestibulum magna ipsum, aliquet quis velit ac, ullamcorper porttitor lorem. Fusce egestas ultricies odio in
-        imperdiet. Praesent sollicitudin elit dui, at lobortis est congue accumsan.</p>
-
-    <h3>Mauris nulla erat semper a urna ac</h3>
-    <p>Scelerisque faucibus lacus. Vivamus vel nunc sagittis risus euismod maximus a asem. Aliquam malesuada erat et
-        scelerisque tempor. Curabitur accumsan tellus ipsum, nec ultricies neque luctus vel.</p>
-
-    <ul>
-        <li>Id varius elit. Cras porttitor ante tellus, a ultricies ligula vestibulum sed. </li>
-        <li>Nunc volutpat nibh nec velit porta, laoreet vulputate sapien congue.</li>
-        <li> In in lectus quis erat vehicula euismod.</li>
-        <li>Quisque mattis rhoncus condimentum. Phasellus tristique rutrum bibendum. </li>
-        <li>Maecenas pulvinar convallis odio blandit viverra. Nunc varius
-            risus ante, eget feugiat orci faucibus a. Donec felis neque, convallis eu nunc in, tristique varius elit.
-        </li>
-    </ul>
-    <p>Integer tincidunt bibendum ipsum, quis varius dolor luctus sed. Donec imperdiet, eros sed consectetur suscipit,
-        tortor mi iaculis erat, quis accumsan turpis ex nec eros.</p>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Year</th>
-                <th>PPG</th>
-                <th>MVP</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1990-91</td>
-                <td>31.5</td>
-                <td>Yes</td>
-            </tr>
-            <tr>
-                <td>1991-92</td>
-                <td>30.1</td>
-                <td>Yes</td>
-            </tr>
-            <tr>
-                <td>1992-93</td>
-                <td>32.6</td>
-                <td>No</td>
-            </tr>
-            <tr>
-                <td>1995-96</td>
-                <td>30.4</td>
-                <td>Yes</td>
-            </tr>
-            <tr>
-                <td>1996-97</td>
-                <td>29.6</td>
-                <td>No</td>
-            </tr>
-            <tr>
-                <td>1997-98</td>
-                <td>28.7</td>
-                <td>Yes</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <p>Maecenas hendrerit tempor mauris non varius. Donec vitae diam magna. Aenean vitae lacus at felis feugiat sagittis
-        posuere sit amet ante. Cras sed erat non nisl maximus mollis. Maecenas eleifend enim sem, nec consectetur metus
-        blandit eget. In sed sodales eros. Nulla facilisi. Donec gravida et tellus ac iaculis. Duis egestas sapien
-        purus, sit amet porttitor tortor rutrum a. Sed cursus, massa eget bibendum rutrum, nulla erat luctus justo, at
-        imperdiet eros sapien a ex. Ut at luctus velit. Curabitur congue diam libero, a congue ante accumsan id.
-        Maecenas volutpat mattis dui, quis iaculis tortor sodales in. Morbi ligula nisl, accumsan in dui sed,
-        consectetur sagittis ipsum. Suspendisse maximus turpis sed purus ullamcorper auctor.</p>
-    <h3>Please take this short survey:</h3>
-    <form action="server.php" method="POST">
-        <div>
-            <label for="email">Email:</label>
-            <input type="text" name="email" id="email" />
-        </div>
-        <div>
-            <input type="radio" name="subscription" id="acceptSubs" value="yes" />
-            <label for="acceptSubs">Yes, please send me lots of emails</label>
-            <input type="radio" name="subscription" id="rejectSubs" value="no" />
-            <label for="rejectSubs">No, please do not send me any emails</label>
-        </div>
-        <div>
-            <label for="frequency">How often?</label>
-            <select name="frequency" id="frequency">
-                <option value="none">None</option>
-                <option value="daily">Daily digest</option>
-                <option value="weekly">Weekly digest</option>
-                <option value="python">One per post</option>
-            </select>
-        </div>
-        <fieldset>
-            <legend>How did you hear about us?</legend>
-            <div>
-                <input type="checkbox" id="facebook" name="media" value="facebook" />
-                <label for="facebook">Facebook</label>
-            </div>
-            <div>
-                <input type="checkbox" id="newspaper" name="media" value="newspaper" />
-                <label for="newspaper">Newspaper</label>
-            </div>
-            <div>
-                <input type="checkbox" id="referral" name="media" value="referral" />
-                <label for="referral">Referral</label>
-            </div>
-        </fieldset>
-        <input type="submit" value="Submit">
-    </form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
 </body>
 <!--http://127.0.0.1:8080/server.php?email=jona%40jona.com&subscription=no&media=newspaper&media=referral -->
 
